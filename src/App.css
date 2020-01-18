@@ -1,19 +1,252 @@
 body {
   margin: 0;
+  line-height: 1.5;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+}
+
+option {
+  border: none;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+ul {
   padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 .headerContainer {
+  box-sizing: border-box;
+}
 
+.headerSection {
   display: flex;
-  flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  background: rgb(243, 236, 236);
+  width: 100%;
+  height: 90px;
 }
 
 .detail {
   display: flex;
-  flex-direction: row;
-  width: 20%;
+  margin-top: 15px;
+  margin-left: 40px;
+  padding: 7px;
+  z-index: 20;
+  height: 45px;
+}
 
+.contact {
+  box-sizing: border-box;
+  border-right: solid rgb(138, 138, 235);
+  padding: 0px 20px 0px 0px;
+  color: black;
+}
+
+.contactUs {
+  font-weight: 700;
+}
+
+.currency {
+  padding: 10px 10px 10px 20px;
+}
+
+.title {
+  width: 40%;
+  height: auto;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.profileSide {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 40px;
+  padding: 7px;
+  z-index: 20;
+}
+
+.profile-img {
+  width: 25px;
+  margin-right: 10px;
+  height: 20px;
+}
+
+.signIN {
+  vertical-align: top;
+  margin-right: 25px;
+  vertical-align: top;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.addCart {
+  vertical-align: top;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.cart {
+  height: 20px;
+  box-sizing: border-box;
+  padding-bottom: 5px;
+  width: 25px;
+  margin-right: 10px;
+}
+
+.navBar {
+  display: flex;
+  text-align: center;
+  background: rgb(22, 21, 21);
+  color: white;
+  justify-content: center;
+  width: 100%;
+  left: 0;
+}
+
+li {
+  padding: 10px;
+  margin-left: 25px;
+  box-sizing: border-box;
+}
+
+.sale {
+  margin-left: 25px;
+}
+
+.shipping {
+  text-align: center;
+}
+
+.offer {
+  width: 60%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  margin: auto;
+}
+
+.payment1 {
+  height: 80px;
+  margin: 1px;
+  background: rgb(240, 212, 212);
+}
+
+.payment2 {
+  height: 80px;
+  margin: 1px;
+  background: rgb(240, 212, 212);
+}
+
+.payment3 {
+  height: 80px;
+  margin: 1px;
+  background: rgb(240, 212, 212);
+}
+
+.slideImage {
+  width: 100%;
+  height: 64vh;
+}
+
+.footerMain {
+  background: black;
+  height: 85vh;
+}
+
+/* 
+
+ddd
+
+ddd
+dd
+d
+dddd
+d*/
+/* Sign In Section */
+.accountSection {
+  padding: 0 1.5rem;
+}
+.signIn {
+  height: 40px;
+  margin: 30px;
+}
+
+.newAccount {
+  display: flex;
+  width: 100%;
+  align-content: center;
+}
+.form {
+  width: 40%;
+
+  padding: 30px;
+}
+.input {
+  padding: 5px;
+}
+.email {
+  width: 100%;
+  height: 30px;
+  border-radius: 6px;
+  border: solid;
+}
+.password {
+  margin-top: 20px;
+}
+.submitSide {
+  text-align: center;
+}
+.signInButtom {
+  color: aliceblue;
+  border: none;
+  background: black;
+  padding: 6px;
+  margin: 20px 6px 0 0;
+  width: 20%;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+}
+.fPassword {
+  text-decoration: underline;
+}
+
+.addAccount {
+  width: 40%;
+  background: rgb(223, 210, 210);
+  padding: 30px;
+}
+.list {
+  box-sizing: border-box;
+  list-style-type: disc;
+  padding-left: 8px;
+}
+.createAccount {
+  width: 30%;
+  height: 35px;
+  text-align: center;
+  cursor: pointer;
+  color: aliceblue;
+  border: none;
+  background: black;
+  padding: 6px;
 }
