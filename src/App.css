@@ -64,7 +64,6 @@ ul {
 }
 
 .title {
-  width: 40%;
   height: auto;
   font-size: 24px;
   cursor: pointer;
@@ -110,14 +109,36 @@ ul {
   margin-right: 10px;
 }
 
+/* ToolBar */
+.toolbar {
+  width: 100%;
+  height: 40px;
+  background: black;
+  align-items: center;
+  position: relative;
+  display: flex;
+}
+
+.navBar1 {
+  position: relative;
+  width: 70%;
+  height: inherit;
+}
+
 .navBar {
   display: flex;
   text-align: center;
-  background: rgb(22, 21, 21);
+  background: black;
   color: white;
-  justify-content: center;
-  width: 100%;
-  left: 0;
+  height: inherit;
+  justify-content: space-around;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+.navBar:hover {
+  cursor: pointer;
 }
 
 li {
@@ -130,8 +151,40 @@ li {
   margin-left: 25px;
 }
 
+
+
+.newItem:hover {
+  color: rgb(175, 110, 110);
+}
+
 .shipping {
   text-align: center;
+}
+
+.search {
+  margin-left: 10px;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.searchField {
+  border: none;
+  padding: 0;
+  width: 60%;
+
+}
+
+.searchIcon {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: 35%;
+  cursor: pointer;
+  height: 20px;
+  color: aliceblue;
 }
 
 .offer {
@@ -167,6 +220,20 @@ li {
   height: 64vh;
 }
 
+
+/* Content */
+.topItem {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.item {
+  width: 20%;
+}
+
 .footerMain {
   background: black;
   height: 85vh;
@@ -185,6 +252,7 @@ d*/
 .accountSection {
   padding: 0 1.5rem;
 }
+
 .signIn {
   height: 40px;
   margin: 30px;
@@ -195,26 +263,32 @@ d*/
   width: 100%;
   align-content: center;
 }
+
 .form {
   width: 40%;
 
   padding: 30px;
 }
+
 .input {
   padding: 5px;
 }
+
 .email {
   width: 100%;
   height: 30px;
   border-radius: 6px;
   border: solid;
 }
+
 .password {
   margin-top: 20px;
 }
+
 .submitSide {
   text-align: center;
 }
+
 .signInButtom {
   color: aliceblue;
   border: none;
@@ -226,6 +300,7 @@ d*/
   text-align: center;
   cursor: pointer;
 }
+
 .fPassword {
   text-decoration: underline;
 }
@@ -235,11 +310,13 @@ d*/
   background: rgb(223, 210, 210);
   padding: 30px;
 }
+
 .list {
   box-sizing: border-box;
   list-style-type: disc;
   padding-left: 8px;
 }
+
 .createAccount {
   width: 30%;
   height: 35px;
